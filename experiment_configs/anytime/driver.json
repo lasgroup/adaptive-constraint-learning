@@ -1,0 +1,22 @@
+{
+   "experiment": {
+         "instance": "driver",
+         "policy_file": "driver_candidate_policies_1000.pkl",
+         "noise_sigma": 0.1,
+         "binary_feedback" : false
+      },
+   "method": [
+      "adaptive",
+      "adaptive_uniform",
+      "adaptive_uniform_all",
+      "adaptive_maxvar_all",
+      "adaptive_tuned",
+      "adaptive_uniform_tuned",
+      "adaptive_uniform_all_tuned",
+      "adaptive_maxvar_all_tuned"
+   ],
+   "debug": false,
+   "N_seeds": 30,
+   "experiment_label": "driver_anytime_1",
+   "experiment_script": "experiment_anytime.py"
+}

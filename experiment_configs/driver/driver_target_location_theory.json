@@ -1,0 +1,27 @@
+{
+   "experiment": [
+      {
+         "instance": "driver",
+           "cars_trajectory": "changing_lane",
+           "goal": "target_location",
+           "policy_file": "driver_candidate_policies_1000.pkl",
+           "noise_sigma": null,
+           "binary_feedback": true
+      }
+   ],
+   "method": [
+      "oracle",
+      "g-allocation",
+      "uniform",
+      "adaptive_static",
+      "adaptive_maxvar_all",
+      "adaptive_uniform_all",
+      "adaptive",
+      "adaptive_uniform",
+      "adaptive_greedy_reward_uncertain"
+   ],
+   "debug": false,
+   "N_seeds": 30,
+   "experiment_label": "get_driver_target_location_theory",
+   "experiment_script": "experiment.py"
+}

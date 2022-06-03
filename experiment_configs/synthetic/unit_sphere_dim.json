@@ -1,0 +1,75 @@
+{
+   "experiment": [
+      {
+         "instance": "unit_sphere",
+         "n_arms": 30,
+         "dimension": 10
+      },
+      {
+         "instance": "unit_sphere",
+         "n_arms": 30,
+         "dimension": 20
+      },
+      {
+         "instance": "unit_sphere",
+         "n_arms": 30,
+         "dimension": 30
+      },
+      {
+         "instance": "unit_sphere",
+         "n_arms": 30,
+         "dimension": 40
+      },
+      {
+         "instance": "unit_sphere",
+         "n_arms": 30,
+         "dimension": 50
+      },
+      {
+         "instance": "unit_sphere",
+         "n_arms": 30,
+         "dimension": 60
+      },
+      {
+         "instance": "unit_sphere",
+         "n_arms": 30,
+         "dimension": 70
+      },
+      {
+         "instance": "unit_sphere",
+         "n_arms": 30,
+         "dimension": 80
+      },
+      {
+         "instance": "unit_sphere",
+         "n_arms": 30,
+         "dimension": 90
+      },
+      {
+         "instance": "unit_sphere",
+         "n_arms": 30,
+         "dimension": 100
+      }
+   ],
+   "method": [
+      "oracle",
+      "g-allocation",
+      "uniform",
+      "adaptive_static",
+      "adaptive_maxvar_all",
+      "adaptive_uniform_all",
+      "adaptive",
+      "adaptive_uniform",
+      "adaptive_maxvar_all_tuned",
+      "adaptive_uniform_all_tuned",
+      "adaptive_tuned",
+      "adaptive_uniform_tuned",
+      "adaptive_greedy_reward_uncertain",
+      "adaptive_greedy_reward_uncertain_tuned"
+   ],
+   "sqbeta_tuned": 0.5,
+   "debug": false,
+   "N_seeds": 30,
+   "experiment_label": "unit_sphere_dim",
+   "experiment_script": "experiment.py"
+}

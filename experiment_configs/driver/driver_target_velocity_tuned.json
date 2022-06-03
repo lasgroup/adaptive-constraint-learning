@@ -1,0 +1,24 @@
+{
+   "experiment": [
+      {
+         "instance": "driver",
+           "cars_trajectory": "blocked",
+           "goal": "target_velocity",
+           "policy_file": "driver_candidate_policies_1000.pkl",
+           "noise_sigma": null,
+           "binary_feedback": true
+      }
+   ],
+   "method": [
+      "adaptive_maxvar_all_tuned",
+      "adaptive_uniform_all_tuned",
+      "adaptive_tuned",
+      "adaptive_uniform_tuned",
+      "adaptive_greedy_reward_uncertain_tuned"
+   ],
+   "sqbeta_tuned": [0.5, 1.0, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10],
+   "debug": false,
+   "N_seeds": 30,
+   "experiment_label": "get_driver_target_velocity_tuned",
+   "experiment_script": "experiment.py"
+}

@@ -1,0 +1,21 @@
+{
+   "experiment": {
+         "instance": "unit_sphere",
+         "n_arms": 20,
+         "dimension": 10
+      },
+   "method": [
+      "adaptive",
+      "uniform",
+      "uniform_all",
+      "maxvar_all",
+      "adaptive_tuned",
+      "adaptive_uniform_tuned",
+      "adaptive_uniform_all_tuned",
+      "adaptive_maxvar_all_tuned"
+   ],
+   "debug": false,
+   "N_seeds": 10,
+   "experiment_label": "unit_sphere_anytime_1",
+   "experiment_script": "experiment_anytime.py"
+}

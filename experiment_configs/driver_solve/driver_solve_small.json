@@ -1,0 +1,13 @@
+{
+   "problem": [
+      {"cars_trajectory":"changing_lane", "goal": "target_velocity"},
+      {"cars_trajectory":"blocked", "goal": "target_velocity"},
+      {"cars_trajectory":"driving_right", "goal": "target_location"}
+   ],
+   "penalty_lambda": [0, 0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.1],
+   "n_restarts": 10,
+   "experiment_label": null,
+   "experiment_label": "driver_solve_1",
+   "N_seeds": 1,
+   "experiment_script": "driver_solve_with_restarts.py"
+}
