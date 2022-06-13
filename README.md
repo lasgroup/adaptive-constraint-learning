@@ -2,7 +2,7 @@
 # Interactively Learning Preference Constraints in Linear Bandits
 
 
-This repository contains source code to reproduce experiments in the paper ["Interactively Learning Preference Constraints in Linear Bandits"](TODO). The code is provided as is and will not be maintained. Here we provide instructions on how to set up and run the code to reproduce the experiments reported in the paper.
+This repository contains source code to reproduce experiments in the paper ["Interactively Learning Preference Constraints in Linear Bandits"](https://arxiv.org/abs/2206.05255). The code is provided as is and will not be maintained. Here we provide instructions on how to set up and run the code to reproduce the experiments reported in the paper.
 
 
 ### Citation
